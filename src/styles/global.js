@@ -12,7 +12,7 @@ html,body, #root {
 	box-sizing: border-box;
 }
 body {
-	background: #FAF000;
+	background: #FAFAFA;
 	font-size:14px;
 	font-family: sans-serif;
 	height: 100%;
