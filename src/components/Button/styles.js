@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const BtnFacebook = styled.button`
 	background: #f00;
@@ -32,10 +33,22 @@ export const BtnSingUp = styled(BtnFacebook)`
 	background: #b2dffc;
 	color: #ffffff;
 	margin: 10px 0px;
+	list-style:none;
+	text-decoration: none;
 `;
 
 export const BtnLoginFace = styled(BtnFacebook)`
 	background: none;
 	color: #385185;
 	padding: 20px;
+`;
+export const StyledLink = styled(Link)`
+    text-decoration: none;
+	color: #ffffff;
+
+
+    &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+		color: #ffffff;
+    }
 `;

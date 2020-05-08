@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
 	display: flex;
@@ -85,4 +86,31 @@ export const IconFb = styled.div`
 	margin-right: 5px;
 	display: flex;
 	align-items: center;
+`;
+
+export const SingUpStatus = styled.div`
+	margin: 5px 2px 0px;
+`;
+
+export const Error = styled.span`
+	color: red;
+`;
+export const Sucess = styled.span`
+	color: blue;
+`;
+
+export const ForgotPassword = styled(Link)`
+	text-decoration: none;
+	color: #00376b;
+	font-size: 12px;
+	line-height: 14px;
+	color: #00376b;
+
+	&:focus,
+	&:hover,
+	&:visited,
+	&:link,
+	&:active {
+		text-decoration: none;
+	}
 `;

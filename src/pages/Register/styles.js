@@ -86,3 +86,12 @@ export const IconFb = styled.div`
 	display: flex;
 	align-items: center;
 `;
+
+export const SingUpStatus = styled.div`
+	margin:5px 2px 15px;
+	color:red;
+
+	span:first-child{
+		color:blue;
+	}
+`;
