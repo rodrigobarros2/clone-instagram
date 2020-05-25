@@ -8,12 +8,12 @@ export default function Home() {
 			<Header />
 			<h1>Home</h1>
 			<div>
-				<h1>{(useSelector((state) => state.usuarioEmail))}</h1>
+				<h1>{useSelector((state) => state.usuarioEmail)}</h1>
 				<h1>
 					Logado:
-					{(useSelector((state) => state.usuarioLogado))}
+					{useSelector((state) => state.usuarioLogado)}
 				</h1>
-				<h1>Aqui é o Dashboard</h1>
+				<h1>Aqui é o Dashboarddd</h1>
 			</div>
 		</div>
 	);
